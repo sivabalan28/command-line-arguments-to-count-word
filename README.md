@@ -19,9 +19,10 @@ Use len() to find the total words.
 Run the program to determine the number of words in the file created.
 
 ## PROGRAM:
+```python
+#Program for getting word count from the contents of a file using command line arguments
 #developed by:sivabalan
 #register number:22004401
-```python
 import sys
 count= 0
 with open(sys.argv[1],'r') as f1:
